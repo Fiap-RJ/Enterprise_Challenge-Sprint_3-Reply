@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AAED727-64CF-E2EC-A9B3-5C253DE3C5BC" name="T_MEDICAO">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 01:40:57 UTC</createdTime>
+<ownerDesignName>DER_suply</ownerDesignName>
+<engineerTo>
+<item key="7A0936D7-268A-55C3-1B17-7F00A6156159" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_medicao" id="97E29B86-F87E-C54D-6B34-F9D8B8B8BEF8">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 01:41:33 UTC</createdTime>
+<ownerDesignName>DER_suply</ownerDesignName>
+<engineerTo>
+<item key="7A0936D7-268A-55C3-1B17-7F00A6156159" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_sensor" id="9FC7DB08-BAC3-8124-57A9-59EAF4EC6931">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 01:45:23 UTC</createdTime>
+<generatorID>48E78226-B388-C7E5-D49A-4A815F2395F5</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<engineerTo>
+<item key="7A0936D7-268A-55C3-1B17-7F00A6156159" value="true"/>
+</engineerTo>
+<referedAttribute>9411FDCA-B1C5-E20D-A38C-43EC5A803209</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="D0DFCB9A-A415-221D-4523-CBBC73DCAD56">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 01:41:49 UTC</createdTime>
+<ownerDesignName>DER_suply</ownerDesignName>
+<engineerTo>
+<item key="7A0936D7-268A-55C3-1B17-7F00A6156159" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temp" id="675B534E-77BB-4E32-6C84-E8440942FB34">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 01:42:40 UTC</createdTime>
+<ownerDesignName>DER_suply</ownerDesignName>
+<engineerTo>
+<item key="7A0936D7-268A-55C3-1B17-7F00A6156159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="umid" id="36703E65-3884-4AD9-8DF4-1BE959CA5B7A">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 01:42:52 UTC</createdTime>
+<ownerDesignName>DER_suply</ownerDesignName>
+<engineerTo>
+<item key="7A0936D7-268A-55C3-1B17-7F00A6156159" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,3,3</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D530BFAB-D568-1315-26FC-196C8EF16733" name="T_MEDICAO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 01:41:45 UTC</createdTime>
+<ownerDesignName>DER_suply</ownerDesignName>
+<engineerTo>
+<item key="7A0936D7-268A-55C3-1B17-7F00A6156159" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97E29B86-F87E-C54D-6B34-F9D8B8B8BEF8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

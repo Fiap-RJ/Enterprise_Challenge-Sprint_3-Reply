@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DER_suply" id="DFAEB627-8001-2201-0E96-BA2625481F05" version="3.5">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 00:52:36 UTC</createdTime>
+<ownerDesignName>DER_suply</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DFAEB627-8001-2201-0E96-BA2625481F05</designId>
+</OSDM_Design>

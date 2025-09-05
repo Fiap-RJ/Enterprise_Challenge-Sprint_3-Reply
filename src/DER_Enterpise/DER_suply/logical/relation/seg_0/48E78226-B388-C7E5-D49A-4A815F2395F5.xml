@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gera" directorySegmentName="seg_0" id="48E78226-B388-C7E5-D49A-4A815F2395F5">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 01:45:23 UTC</createdTime>
+<ownerDesignName>DER_suply</ownerDesignName>
+<engineerTo>
+<item key="7A0936D7-268A-55C3-1B17-7F00A6156159" value="true"/>
+</engineerTo>
+<sourcePk>EAEE262C-7D27-CEC9-6D42-A3CB303DAA48</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>78965560-B203-C1A8-EB12-2AF7C0E5C314</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4AAED727-64CF-E2EC-A9B3-5C253DE3C5BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

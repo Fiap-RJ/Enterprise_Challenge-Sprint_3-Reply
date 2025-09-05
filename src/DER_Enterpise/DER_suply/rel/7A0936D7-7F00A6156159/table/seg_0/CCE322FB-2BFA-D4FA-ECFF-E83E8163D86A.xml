@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCE322FB-2BFA-D4FA-ECFF-E83E8163D86A" name="T_MEDICAO">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>4AAED727-64CF-E2EC-A9B3-5C253DE3C5BC</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_medicao" id="9B0E7BEA-6D68-AAE6-2FFF-69991931F79E">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>97E29B86-F87E-C54D-6B34-F9D8B8B8BEF8</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_sensor" id="4EEEEF3F-9B3A-2097-602D-F41E51E50B74">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>9FC7DB08-BAC3-8124-57A9-59EAF4EC6931</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08B7E888-17EF-1FB8-C852-0E43651C04B7" referredColumn="DBFF0C71-16D2-93B6-098E-F5CB5ECAAC8A"/>
+</associations>
+</Column>
+<Column name="data" id="AFB59996-423A-049A-7B0B-F7D232383CC4">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>D0DFCB9A-A415-221D-4523-CBBC73DCAD56</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temp" id="E6463C46-51EE-C3B7-7757-88B08CFBF40E">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>675B534E-77BB-4E32-6C84-E8440942FB34</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="umid" id="F6D5E70C-078C-B79D-E741-15B62E5EE69D">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>36703E65-3884-4AD9-8DF4-1BE959CA5B7A</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,3,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEE34F2A-F433-ADF2-A37E-B3E590FFC13D" name="PK_T_MEDICAO">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>D530BFAB-D568-1315-26FC-196C8EF16733</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B0E7BEA-6D68-AAE6-2FFF-69991931F79E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0387F6BA-360D-9723-8529-F00FB243CB01" name="FK_MEDICAO_SENSOR">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>48E78226-B388-C7E5-D49A-4A815F2395F5</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EEEEF3F-9B3A-2097-602D-F41E51E50B74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

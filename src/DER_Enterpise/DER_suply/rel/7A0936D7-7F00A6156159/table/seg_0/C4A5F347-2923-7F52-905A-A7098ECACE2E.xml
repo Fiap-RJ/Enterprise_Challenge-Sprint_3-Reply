@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4A5F347-2923-7F52-905A-A7098ECACE2E" name="T_SENSOR">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>78965560-B203-C1A8-EB12-2AF7C0E5C314</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_sensor" id="DBFF0C71-16D2-93B6-098E-F5CB5ECAAC8A">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>9411FDCA-B1C5-E20D-A38C-43EC5A803209</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_maq" id="55D0849B-ECFD-9192-60D8-C59F7F361930">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>1C44F79B-3002-6499-8152-E6D760341699</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6356DE86-8F00-6CCE-E7A3-7912B4E7BA29" referredColumn="0EE5E1D3-F751-F7D2-381C-3D2F71522158"/>
+</associations>
+</Column>
+<Column name="tipo" id="79730729-DB08-A230-D497-DC7472BAFDC5">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>D37B8F7B-1700-C761-2CF4-90963A6808CA</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="3AC6758D-1DCF-2216-220C-EE1B27D7B8E0">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>F3C4D7B3-2AC7-3974-16AA-39E8F38429A0</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="DB4D90E2-C0CD-CDA2-F98B-7D90D7B12B7C">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>BA3C4FBA-4BA8-C76F-DFD1-F1E30A25F962</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inicio_operacao" id="8BB942A0-875D-5D2C-DEED-6D23C55DF43B">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>5D2B467F-65B0-076D-F71B-EE9918B3703C</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="termino_opercacao" id="1CD96F9C-ACA3-4245-97DC-93C732D2F743">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>7ED344CA-2ED1-1161-E5CC-A41582A449FA</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C940FA61-84A5-F4C0-AC30-A926E8101D6E" name="PK_T_SENSOR">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>EAEE262C-7D27-CEC9-6D42-A3CB303DAA48</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBFF0C71-16D2-93B6-098E-F5CB5ECAAC8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62345DEC-3911-D76A-EF57-60B01852D814" name="UN_T_SENSOR_">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 03:04:14 UTC</createdTime>
+<ownerDesignName>DER_suply</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55D0849B-ECFD-9192-60D8-C59F7F361930"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BD5F228-33F0-9772-AEB3-2EBFBFE1F904" name="FK_SENSOR_MAQ">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 02:44:19 UTC</createdTime>
+<generatorID>2CDE46A9-1853-625B-ADD4-58F7042EFA5D</generatorID>
+<ownerDesignName>DER_suply</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55D0849B-ECFD-9192-60D8-C59F7F361930"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SENSOR_OP" directorySegmentName="seg_0" id="2683286C-D88F-34D8-3101-BB8A64384DDE">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-05 03:07:46 UTC</createdTime>
+<ownerDesignName>DER_suply</ownerDesignName>
+<rule><![CDATA[tremino_operacao>inicio_operacao]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
