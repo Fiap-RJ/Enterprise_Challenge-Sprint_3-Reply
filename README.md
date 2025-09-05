@@ -24,6 +24,7 @@
 
 ## 📜 Descrição
 
+<img src="assets\DER_Reply.png">
 
 
 ## 📁 Estrutura de pastas
@@ -46,7 +47,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-O código e a explicação da sua execução encontram-se no Jupiter disponível na pasta src.
+
 
 
 ## 🗃 Histórico de lançamentos
