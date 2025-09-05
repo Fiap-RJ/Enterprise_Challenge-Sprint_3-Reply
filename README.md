@@ -24,61 +24,7 @@
 
 ## 📜 Descrição
 
-Este projeto tem como objetivo aplicar conceitos de Marchine Learning e Computação em Nuvem no contexto do agronegócio, focando especificamente na inovação tecnológica do setor com metodologias para predição de produção utilizando cinco modelos de preditivos e verificando o mais ajustado aos tipos de dados.
 
-A base de dados utilizadas está disponível na pasta document e contém as variáveis abaixo listadas. 
-- Cultura: o nome da safra para a qual o rendimento está sendo medido.
-- Precipitação (mm dia 1): a quantidade de chuva em milímetros por dia.
-- Umidade específica a 2 metros (g/kg): a quantidade de vapor de água no ar por quilograma de ar seco a uma altura de 2 metros acima do solo.
-- Umidade relativa a 2 metros (%): a quantidade de vapor de água no ar como uma porcentagem da quantidade máxima de vapor de água que pode ser mantida a uma determinada temperatura e pressão.
-- Temperatura a 2 metros (ºC): a temperatura em graus Celsius a uma altura de 2 metros acima do solo.
-- Rendimento: a quantidade de rendimento em toneladas por hectare.
-
-Na parte de computação em nuvem, considerando a necessidade de hospedar uma API que receberá dados dos sensores que coletam as variáveis acima e onde rodará a Machine Learning, foi realizada uma estimativa de custos (On-Demand – 100%) para usar uma máquina Linux simples, comparando os valores cotados para a região de São Paulo (BR) e para a região da Virgínia do Norte (EUA). 
-
-A cotação foi realizada utilizando o site https://calculator.aws/#/
-
-<img src="assets/pagina.inicial.aws.png" >
-
-
-Acessando o botão amarelo de criar estimativa, abre-se a seguinte tela:
-
-
-<img src="assets/inicio.cotacao.png" >
-
-Inicialmente foi selecionada a região Leste dos EUA (N. da Virginia) e o produto Amazon EC2, pois ele abrangem combinações variadas de CPU, memória, armazenamento e capacidade de rede.
-
-<img src="assets/nv.ec2.png" >
-
-Iniciou-se a configuração do produto:
-
-Optou-se por uma única instância de uso constante e compartilhado. 
-
-<img src="assets/configuracaoEC2_1.png" >
-
-
-Realizada a configuração considerando :
-2 CPUs.
-1 GIB de memória.
-Até 5 Gigabit de rede.
-
-<img src="assets/configuracaoEC2_2.png" >
-
-
-
-Além de 50 GB de armazenamento (HD).
-
-<img src="assets/configuracaoEC2_3.png" >
-
-Salvou-se e incluiu um serviço na cotação, considerando a mesma configuração mas com a região de América do Sul (São Paulo).
-
-<img src="assets/configuracaoEC2_4.png" >
-
-Com a cotação prota, verificou-se que o custo para a hospedagem no Leste dos EUA é mais barato que na América do Sul.
-
-<img src="assets/configuracaoEC2_5.png" >
-
-Caso haja restrições legais para armazenamento no exterior, mesmo sendo mais caro, a opção por São Paulo seria a única viável.
 
 ## 📁 Estrutura de pastas
 
