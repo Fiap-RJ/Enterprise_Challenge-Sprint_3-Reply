@@ -39,31 +39,36 @@ source .venv/bin/activate
 python3 -m ipykernel install --user --name=venv --display-name="Python (venv)"
 ```
 
-## 🏃 Executando o Projeto
+## 🏃 Pipeline de Machine Learning
 
-### 1. Gerar Dados Sintéticos
+Para executar o projeto do início ao fim, siga os passos abaixo no terminal, a partir da pasta `src/ml`.
 
-Para gerar os dados sintéticos, execute o script Python:
+### Passo 1: Gerar os Dados
+
+Este comando cria os arquivos CSV com dados sintéticos de máquinas, sensores e medições.
 
 ```bash
-# Navegue até a pasta do projeto
-cd src/ml
-
-# Execute o script de geração de dados
-python3 generate_data.py
+python generate_data.py
 ```
+*Os arquivos serão salvos em `data/raw/`.*
 
-#### Arquivos Gerados
-Os seguintes arquivos serão criados em `data/raw/`:
-- `maquinas.csv`: Informações das máquinas (ID, tipo, modelo, etc.)
-- `sensores.csv`: Dados dos sensores (ID, tipo, máquina associada, etc.)
-- `medicoes.csv`: Leituras dos sensores (temperatura, umidade, timestamp)
+### Passo 2: Executar a Análise Exploratória (EDA)
 
-### 2. Análise Exploratória
-Após gerar os dados, execute o notebook de análise exploratória:
+Este script gera um relatório rápido e salva os gráficos da análise dos dados.
+
 ```bash
-jupyter notebook notebooks/02_eda.ipynb
+python run_eda.py
 ```
+*Os gráficos serão salvos em `reports/figures/`.*
+
+### Passo 3: Treinar o Modelo de Machine Learning
+
+Este comando treina um modelo para prever a temperatura, avalia seu desempenho e salva o artefato final.
+
+```bash
+python train_model.py
+```
+*O modelo treinado (`temperature_prediction_model.joblib`) será salvo na pasta `models/`.*
 
 ## 📁 Estrutura de Diretórios
 
