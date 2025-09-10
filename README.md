@@ -89,7 +89,7 @@ A performance do modelo pode ser visualizada no gráfico abaixo, que compara os 
 
 Assista ao vídeo de 5 minutos que explica o projeto em detalhes:
 
-**[Link para o vídeo no YouTube (Não Listado)]**
+**[Link para o vídeo no YouTube](https://www.youtube.com/watch?v=Yc_9bWBLyQI)**
 
 
 ## 📁 Estrutura de pastas
